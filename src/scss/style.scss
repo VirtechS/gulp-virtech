@@ -1,0 +1,21 @@
+@import "fonts";
+
+body {
+    background-color: aqua;
+    span {
+        color: red;
+    }
+    font-family: Montserrat;
+}
+
+@media (min-width: 768px) {
+    span {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    span {
+        background-color: gold;
+    }
+}
